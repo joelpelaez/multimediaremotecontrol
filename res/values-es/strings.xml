@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Control Remoto Multimedia</string>
+    <string name="hello_world">¡Hola Mundo!</string>
+    <string name="menu_settings">Configuraciones</string>
+    <string name="button_play">Reproducir</string>
+    <string name="button_stop">Parar</string>
+    <string name="button_pause">Pausa</string>
+    <string name="button_prev">Anterior</string>
+    <string name="button_next">Siguiente</string>
+    <string name="spin_vol">Volumen</string>
+    <string name="non_bluetooth">No existe dispositivo Bluetooth</string>
+    <string name="off_bluetooth_message">¿Desea desactivar el Bluetooth?</string>
+    <string name="off_bluetooth_title">Apagar el Bluetooth</string>
+    <string name="list_devices_title">Lista de Dispositivos Bluetooth</string>
+    <string name="menu_connect_bluetooth">Conexión usando Bluetooth</string>
+    <string name="undiscover_service_title">Servicio no encontrado</string>
+    <string name="undiscover_service_message">Servicio no disponible. Revise la instalación.</string>
+    <string name="connection_error_title">Error de conexión</string>
+    <string name="connection_error_message">Fallo al conectar al servicio.</string>
+    <string name="loading_title">Conetando</string>
+    <string name="loading_message">Conectando al Servidor de Control Remoto</string>
+    <string name="successful_title">Conexión Exitosa</string>
+    <string name="successful_message">Conexión al Servidor de Control Remoto Aceptada.</string>
+    <string name="not_connection_title">Conexión no configurada</string>
+    <string name="not_connection_message">Conecte a algún Servicio de Control Remoto</string>
+    <string name="menu_connect_inet">Coneción usando TCP/IP</string>
+    <string name="menu_close_connection">Cerrar Conexión</string>
+    <string name="close_connection_title">Cerrar Conexión</string>
+    <string name="close_connection_message">¿Cerrar la conexión actual?</string>
+    
+</resources>

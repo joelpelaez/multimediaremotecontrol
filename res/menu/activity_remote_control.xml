@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_connect_bluetooth" android:orderInCategory="1" android:title="@string/menu_connect_bluetooth"></item>
+    <item android:id="@+id/menu_connect_inet" android:orderInCategory="2" android:title="@string/menu_connect_inet"></item>
+    <item android:id="@+id/menu_close_connection" android:orderInCategory="3" android:title="@string/menu_close_connection" android:icon="@android:drawable/ic_menu_delete"></item>
+
+</menu>

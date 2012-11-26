@@ -1,0 +1,8 @@
+Multimedia Remote Control
+
+It's a simple and basic remote control interface for PC and others devices
+with multimedia applications using a basic protocol for send commands.
+
+This is a Android App version, licensing under GNU GPLv3.
+
+This is a client side, generic for multi-platform target: Windows and Linux.

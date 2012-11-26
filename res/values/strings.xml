@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Multimedia Remote Control</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button_play">Play</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_pause">Pause</string>
+    <string name="button_prev">Prev</string>
+    <string name="button_next">Next</string>
+    <string name="spin_vol">Volume</string>
+    <string name="non_bluetooth">Not exist Bluetooth Device</string>
+    <string name="off_bluetooth_message">Do you want to disable Bluetooth?</string>
+    <string name="off_bluetooth_title">Turn off Bluetooth</string>
+    <string name="list_devices_title">List of Bluetooth Devices</string>
+    <string name="menu_connect_bluetooth">Connect using Bluetooth</string>
+    <string name="undiscover_service_title">Service not found</string>
+    <string name="undiscover_service_message">Service unavailable. Check server installation.</string>
+    <string name="connection_error_title">Connection Error</string>
+    <string name="connection_error_message">Fail to connect service.</string>
+    <string name="loading_title">Connecting</string>
+    <string name="loading_message">Connecting to Remote Control Server</string>
+    <string name="successful_title">Successful Connection</string>
+    <string name="successful_message">Connection to Remote Control Server OK.</string>
+    <string name="not_connection_title">Not Connection</string>
+    <string name="not_connection_message">Unset Connection.</string>
+    <string name="menu_connect_inet">Connect using TCP/IP</string>
+    <string name="menu_close_connection">Close Connection</string>
+    <string name="close_connection_title">Close Connection</string>
+    <string name="close_connection_message">Close the current connection?</string>
+    <string name="title_activity_bluetooth_list">Bluetooth Devices List</string>
+    <string name="list_devices_bounded">Paired Devices</string>
+    <string name="list_devices_discovered">Discovered Devices</string>
+    <string name="menu_discover_devices">Discover Devices</string>
+
+</resources>
