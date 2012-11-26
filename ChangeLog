@@ -1,6 +1,7 @@
 2012-11-26 Joel Peláez Jorge <joelpelaez@gmail.com>
 
-  * Add this ChangeLog file.
+ * FIX: Crash in BluetoothList class when update ExpandableListView while discovery Bluetooth Devices
+ * Add this ChangeLog file.
 
 2012-11-25 Joel Peláez Jorge <joelpelaez@gmail.com>
 

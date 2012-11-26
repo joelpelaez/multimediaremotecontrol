@@ -52,7 +52,7 @@ public class BluetoothList extends Activity implements ExpandableListView.OnChil
 				child.setName(device.getName());
 				child.setAddress(device.getAddress());
 				group.getItems().add(child);
-				mDeviceList.setAdapter(mAdapter);
+				mAdapter.notifyDataSetChanged();
 	        }
 	    }
 	};
