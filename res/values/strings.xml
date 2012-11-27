@@ -35,5 +35,9 @@
     <string name="menu_discover_devices">Discover Devices</string>
     <string name="unknown_hostname_title">Unknown Hostname</string>
     <string name="unknown_hostname_message">Hostname not found.</string>
+    <string name="title_activity_network_connection">Network Connection Server</string>
+    <string name="net_address_label">Address:</string>
+    <string name="net_port_label">Port:</string>
+    <string name="net_connect_button">Connect</string>
 
 </resources>

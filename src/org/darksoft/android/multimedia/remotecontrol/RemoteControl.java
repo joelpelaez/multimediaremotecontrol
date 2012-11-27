@@ -47,6 +47,7 @@ public class RemoteControl extends Activity {
 
 	private static final int REQUEST_ENABLE_BT = 1;
 	private static final int REQUEST_BT_LIST_DEV = 2;
+	private static final int REQUEST_NET_CONNECT = 3;
 
 	@SuppressWarnings("unused")
 	private boolean mBluetoothEnableHere = false;
@@ -200,6 +201,8 @@ public class RemoteControl extends Activity {
 			}
 			break;
 		case R.id.menu_connect_inet:
+			Intent net = new Intent(this, NetworkConnection.class);
+			startActivityForResult(net, REQUEST_NET_CONNECT);
 			break;
 		case R.id.menu_close_connection:
 			if (client != null)
@@ -243,6 +246,13 @@ public class RemoteControl extends Activity {
 				String address = data.getExtras().getString("address");
 				client = new BluetoothClient();
 				((BluetoothClient) client).connectToDevice(address, this);
+			}
+		} else if (requestCode == REQUEST_NET_CONNECT) {
+			if (resultCode == RESULT_OK) {
+				String address = data.getExtras().getString("address");
+				int port = data.getExtras().getInt("port");
+				client = new InetClient();
+				((InetClient) client).connectToServer(address, port, this);
 			}
 		}
 	}

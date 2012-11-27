@@ -82,6 +82,7 @@ public class InetClient extends ConnectClient {
 				}
 			});
 			mSocket = null;
+			return;
 		} catch (IOException e) {
 			mRootActivity.runOnUiThread(new Runnable() {
 				@Override
@@ -91,6 +92,7 @@ public class InetClient extends ConnectClient {
 				}
 			});
 			mSocket = null;
+			return;
 		}
 		mRootActivity.runOnUiThread(new Runnable() {
 			@Override
@@ -198,6 +200,8 @@ public class InetClient extends ConnectClient {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		} catch (NullPointerException e) {
+			
 		}
 	}
 
