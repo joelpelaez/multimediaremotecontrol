@@ -29,5 +29,13 @@
     <string name="menu_close_connection">Cerrar Conexión</string>
     <string name="close_connection_title">Cerrar Conexión</string>
     <string name="close_connection_message">¿Cerrar la conexión actual?</string>
+    <string name="menu_discover_devices">Descubrir dispositivos</string>
+    <string name="unknown_hostname_title">Nombre de Host Desconocido</string>
+    <string name="unknown_hostname_message">Nombre de host no encontrado.</string>
+    <string name="title_activity_network_connection">Conexión al Servidor por Red</string>
+    <string name="net_address_label">Dirección:</string>
+    <string name="net_port_label">Puerto:</string>
+    <string name="net_connect_button">Conectar</string>
+    
     
 </resources>
