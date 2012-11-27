@@ -33,5 +33,7 @@
     <string name="list_devices_bounded">Paired Devices</string>
     <string name="list_devices_discovered">Discovered Devices</string>
     <string name="menu_discover_devices">Discover Devices</string>
+    <string name="unknown_hostname_title">Unknown Hostname</string>
+    <string name="unknown_hostname_message">Hostname not found.</string>
 
 </resources>

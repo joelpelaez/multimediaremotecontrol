@@ -1,5 +1,6 @@
 2012-11-26 Joel Peláez Jorge <joelpelaez@gmail.com>
 
+ * Add base server connection over network, only functionality.
  * FIX: Crash in BluetoothList class when update ExpandableListView while discovery Bluetooth Devices
  * Add this ChangeLog file.
 
