@@ -57,8 +57,11 @@ public class ExpandListAdapter extends BaseExpandableListAdapter {
 			view = infalInflater.inflate(R.layout.expandlist_child_item, null);
 		}
 		TextView tv = (TextView) view.findViewById(R.id.tvChild);
+		TextView tvAddr = (TextView) view.findViewById(R.id.tvChildAddr);
 		tv.setText(child.getName().toString());
 		tv.setTag(child.getTag());
+		tvAddr.setText(child.getTag().toString());
+		tvAddr.setTag(child.getTag());
 		// TODO Auto-generated method stub
 		return view;
 	}

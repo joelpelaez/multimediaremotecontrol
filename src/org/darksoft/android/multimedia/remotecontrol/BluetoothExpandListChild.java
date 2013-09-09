@@ -39,6 +39,7 @@ public class BluetoothExpandListChild extends ExpandListChild {
 	 */
 	public void setAddress(String addr) {
 		address = addr;
+		setTag(address);
 	}
 
 	/**

@@ -79,6 +79,17 @@ public abstract class ConnectClient {
 	 *             If the connection fail or is closed.
 	 */
 	abstract void sendVol(int vol) throws IOException;
+	
+	/**
+	 * Send a "VOL [+|-]vol" command
+	 * It's as sendVol but send a relative volume.
+	 * 
+	 * @param vol
+	 *            A int value than represet Volume (-100,100)
+	 * @throws IOException
+	 *             If the connection fail or is closed
+	 */
+	
 
 	/**
 	 * Close actually connection. Used for generic objects.
