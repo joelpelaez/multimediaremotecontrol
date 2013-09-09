@@ -25,7 +25,7 @@
     <string name="successful_message">Connection to Remote Control Server OK.</string>
     <string name="not_connection_title">Not Connection</string>
     <string name="not_connection_message">Unset Connection.</string>
-    <string name="menu_connect_inet">Connect using TCP/IP</string>
+    <string name="menu_connect_inet">Connect using Wi-Fi</string>
     <string name="menu_close_connection">Close Connection</string>
     <string name="close_connection_title">Close Connection</string>
     <string name="close_connection_message">Close the current connection?</string>

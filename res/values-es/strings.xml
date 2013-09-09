@@ -25,7 +25,7 @@
     <string name="successful_message">Conexión al Servidor de Control Remoto Aceptada.</string>
     <string name="not_connection_title">Conexión no configurada</string>
     <string name="not_connection_message">Conecte a algún Servicio de Control Remoto</string>
-    <string name="menu_connect_inet">Coneción usando TCP/IP</string>
+    <string name="menu_connect_inet">Coneción usando Wi-Fi</string>
     <string name="menu_close_connection">Cerrar Conexión</string>
     <string name="close_connection_title">Cerrar Conexión</string>
     <string name="close_connection_message">¿Cerrar la conexión actual?</string>
